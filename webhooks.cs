@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Specialized;
+using System.IO;
 using System.Net;
 
 namespace CSCord
@@ -77,6 +79,37 @@ namespace CSCord
             var data = new NameValueCollection();
             data["content"] = timeString;
             wbc.UploadValues(webhook, data);
+        }
+        public void embed(string webhookUrl, string username, string title, string description, string footer, string color)
+        {
+            WebRequest wr = (HttpWebRequest)WebRequest.Create(webhookUrl);
+            wr.ContentType = "application/json";
+            wr.Method = "POST";
+
+            using (var sw = new StreamWriter(wr.GetRequestStream()))
+            {
+                string json = JsonConvert.SerializeObject(new
+                {
+                    username = username,
+                    embeds = new[]
+                    {
+                        new
+                        {
+                            description = description,
+                            title = title,
+                            color = color,
+
+                            footer = new {
+                                icon_url = "",
+                                text = footer + " | Made with CSCord"
+                            }
+                        }
+                    }
+                });
+
+                sw.Write(json);
+            }
+            var response = (HttpWebResponse)wr.GetResponse();
         }
     }
 }
