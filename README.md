@@ -26,3 +26,16 @@ To get code help, please join [our discord server](https://discord.gg/yjfSrccC4c
 **Heres some quick troubleshooting you can try:**
 * You did not fill the required fields, for example: `cscord.message("empty webhook url", "empty message")`. To use it correctly, kindly fill the required fields.
 **Dont know the required fields? They are mentioned with examples on** [our wiki](https://github.com/AyanTheDeveloper/CSCord/wiki).
+# 📗 Using versions
+## Features that are exclusive to specific versions:
+* Embeds are exclusive to [Pre-release V0.2](https://github.com/AyanTheDeveloper/CSCord/releases/edit/CSCord-V2), as we are not sure it is stable to all devices (YET!).
+* Templates will be exclusive to the up-coming **Pre-release V0.3** for the same reason.
+## Using the correct versions:
+For slow PCs, that do not run well should use the *Latest* version that is highlighted in *green*. How ever, Pre-releases are for fast PCs, that run well. 
+#### To see if your pc meets the requirements to use Pre-releases, follow the following criteria:
+* Up-to-date graphics card (NVIDIA® GeForce®, AMD Radeon™, and Vega, etc.)
+* Stable PC
+* Up-to-date PC parts
+***Not needed but reccomended:***
+* SSD or hybrid storage.
+* PC age 5-0 years.
