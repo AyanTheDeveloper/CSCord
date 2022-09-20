@@ -1,8 +1,10 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Specialized;
+using System.Drawing;
 using System.IO;
 using System.Net;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace CSCord
 {
@@ -112,5 +114,50 @@ namespace CSCord
             var response = (HttpWebResponse)wr.GetResponse();
         }
     }
+    public class templates
+    {
+        public void rulesEmbed(string webhookUrl)
+        {
+            WebRequest wr = (HttpWebRequest)WebRequest.Create(webhookUrl);
+            wr.ContentType = "application/json";
+            wr.Method = "POST";
+
+            using (var sw = new StreamWriter(wr.GetRequestStream()))
+            {
+                string json = JsonConvert.SerializeObject(new
+                {
+                    username = "Rules",
+                    embeds = new[]
+                    {
+                        new
+                        {
+                            description = "Please follow discord's terms of service.",
+                            title = "Rules",
+                            color = "008000",
+
+                            footer = new {
+                                icon_url = "https://www.pngmart.com/files/17/Wrong-Cross-PNG-Clipart.png",
+                                text = "Rules of the server!" + " | Made with CSCord"
+                            }
+                        }
+                    }
+                });
+
+                sw.Write(json);
+            }
+            var response = (HttpWebResponse)wr.GetResponse();
+        }
+        public void helloworldMessage(string webhookUrl)
+        {
+            string webhook = webhookUrl;
+
+            var wbc = new WebClient();
+            var data = new NameValueCollection();
+            data["content"] = "Hello, world!";
+            wbc.UploadValues(webhook, data);
+        }
+    }
 }
+
 //thats it.
+//it took so much time xD
