@@ -1,5 +1,4 @@
 ![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true) 
-# Welcome to CSCord.
 # 📥 Installation
 1. Go to our download page [here](https://github.com/AyanTheDeveloper/CSCord/releases/tag/CSCord-V1).
 2. Add the DLL reference for CSCord. [Don't know how?](https://www.ibm.com/docs/en/filenet-p8-platform/5.5.x?topic=setup-configuring-visual-studio-project).
