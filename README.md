@@ -36,6 +36,6 @@ For slow PCs, that do not run well should use the *Latest* version that is highl
 * Up-to-date graphics card (NVIDIA® GeForce®, AMD Radeon™, and Vega, etc.)
 * Stable PC
 * Up-to-date PC parts
-***Not needed but reccomended:***<br />
+***Not needed but reccomended:***__
 * SSD or hybrid storage.
 * PC age 5-0 years.
