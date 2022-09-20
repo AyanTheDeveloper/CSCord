@@ -1,4 +1,6 @@
 ![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true) 
+# 🎧 24/7 Support
+Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/yjfSrccC4c).
 # 📥 Installation
 1. Go to our download page [here](https://github.com/AyanTheDeveloper/CSCord/releases/tag/CSCord-V1).
 2. Add the DLL reference for CSCord. [Don't know how?](https://github.com/AyanTheDeveloper/CSCord/wiki/Adding-CSCord.dll-reference).
@@ -11,8 +13,6 @@ Copy & Paste this exact  line while including the one mentioned above.
 `cscord.testWebhook("webhook url here");`
 ### Code not working?
 Get support from our [our discord server](https://discord.gg/yjfSrccC4c)..
-# 🎧 24/7 Support
-Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/yjfSrccC4c).
 # ⛔ Issues
 ### Serious Issues
 We dont currently know about any major issues - report some [here](https://github.com/AyanTheDeveloper/CSCord/issues), **please only report those issues you are sure that are not from your side.**
