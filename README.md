@@ -1,7 +1,9 @@
 ![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true) 
 # Welcome to CSCord.
-## 📖 About 
-I originally made this webhook for one of my apps, but I realized it would be much more useful for other developers.
+# 📥 Installation
+1. Go to our download page [here](https://github.com/AyanTheDeveloper/CSCord/releases/tag/CSCord-V1).
+2. Add the DLL reference for CSCord. [Don't know how?](https://www.ibm.com/docs/en/filenet-p8-platform/5.5.x?topic=setup-configuring-visual-studio-project).
+3. Your almost setup to use CSCord!
 # 📑 Starting CSCord
 ### To start CSCord:
 `CSCord.webhooks cscord = new CSCord.webhooks();` is necessary to use CSCord.
@@ -39,3 +41,5 @@ For slow PCs, that do not run well should use the *Latest* version that is highl
 * ***Not needed but reccomended:***
 * SSD or hybrid storage.
 * PC age 5-0 years.
+# 📖 About 
+I originally made this webhook for one of my apps, but I realized it would be much more useful for other developers.
