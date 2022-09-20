@@ -1,4 +1,5 @@
-![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true) # CSCord
+![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true) 
+# CSCord
 ### 📖 About 
 I originally made this webhook for one of my apps, but I realized it would be much more useful for other developers.
 ### 📑 Usage
