@@ -2,11 +2,17 @@
 # Welcome to CSCord.
 ## 📖 About 
 I originally made this webhook for one of my apps, but I realized it would be much more useful for other developers.
-## 📑 Usage
-This has been moved to [our wiki](https://github.com/AyanTheDeveloper/CSCord/wiki).
-## 🎧 24/7 Support
+# 📑 Starting CSCord
+## To start CSCord:
+`CSCord.webhooks cscord = new CSCord.webhooks();` is necessary to use CSCord.
+## To test CSCord:
+Copy & Paste this exact  line while including the one mentioned above. 
+`cscord.testWebhook("webhook url here");`
+## Code not working?
+Get support from our [our discord server](https://discord.gg/yjfSrccC4c)..
+# 🎧 24/7 Support
 Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/yjfSrccC4c).
-### ⛔ Issues
+# ⛔ Issues
 ### Serious Issues
 We dont currently know about any issues - report some [here](https://github.com/AyanTheDeveloper/CSCord/issues), **please only report those issues you are sure that are not from your side.**
 ### Minor Issues
