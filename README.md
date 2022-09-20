@@ -40,5 +40,9 @@ For slow PCs, that do not run well should use the *Latest* version that is highl
 * ***Not needed but reccomended:***
 * SSD or hybrid storage.
 * PC age 5-0 years.
+# 🧾 Reccomendations For CSCord Usage
+* Windows 10 Or Higher
+* Visual Studio 2019
+* Discord (Latest Versions)
 # 📖 About 
 I originally made this webhook for one of my apps, but I realized it would be much more useful for other developers.
