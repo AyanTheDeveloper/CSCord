@@ -23,3 +23,6 @@ Minor issues are issues that might be **from your side**, report them on our dis
 * You are using "CSCord" instead of "cscord" after using the line mentioned above. You need to remember to use the one *without caps*.
 ### Code Issue
 To get code help, please join [our discord server](https://discord.gg/yjfSrccC4c).
+**Heres some quick troubleshooting you can try:**
+* You did not fill the required fields, for example: `cscord.message("empty webhook url", "empty message")`. To use it correctly, kindly fill the required fields.
+**Dont know the required fields? They are mentioned with examples on** [our wiki](https://github.com/AyanTheDeveloper/CSCord/wiki).
