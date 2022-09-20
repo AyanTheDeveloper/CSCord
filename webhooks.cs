@@ -160,4 +160,3 @@ namespace CSCord
 }
 
 //thats it.
-//it took so much time xD
