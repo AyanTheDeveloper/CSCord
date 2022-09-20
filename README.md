@@ -1,4 +1,4 @@
-![alt text](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscord-logo.png?raw=true)
+![alt text](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true)
 # 📖 About
 I originally made this webhook for one of my apps, but I realized it would be much more useful for other developers.
 # 📑 Usage
