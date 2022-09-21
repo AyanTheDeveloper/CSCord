@@ -1,4 +1,4 @@
-![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true) 
+![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true)(https://github.com/AyanTheDeveloper/CSCord)
 # 🎧 24/7 Support
 Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/yjfSrccC4c).
 # 📥 Installation
