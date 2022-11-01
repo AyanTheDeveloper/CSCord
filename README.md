@@ -34,7 +34,7 @@ To get code help, please join [our discord server](https://discord.gg/yjfSrccC4c
 * Embeds are exclusive to [Pre-release V0.2](https://github.com/AyanTheDeveloper/CSCord/releases/edit/CSCord-V2), as we are not sure it is stable to all devices (YET!).
 * Templates will be exclusive to the up-coming **Pre-release V0.3** for the same reason.
 ## Using the correct versions:
-For slow PCs, that do not run well should use the *Latest* version that is highlighted in *green*. How ever, Pre-releases are for fast PCs, that run well. 
+The *Latest* version that is highlighted in *green* are versions **that are verified to work as intended.** The *Pre-release* are **that are not verified to work as intended.**
 #### To see if your pc meets the requirements to use Pre-releases, follow the following criteria:
 * Up-to-date graphics card (NVIDIA® GeForce®, AMD Radeon™, and Vega, etc.)
 * Stable PC
