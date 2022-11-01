@@ -35,13 +35,6 @@ To get code help, please join [our discord server](https://discord.gg/yjfSrccC4c
 * Templates will be exclusive to the up-coming **Pre-release V0.3** for the same reason.
 ## Using the correct versions:
 The *Latest* version that is highlighted in *green* are versions **that are verified to work as intended.** The *Pre-release* are **that are not verified to work as intended.**
-#### To see if your pc meets the requirements to use Pre-releases, follow the following criteria:
-* Up-to-date graphics card (NVIDIA® GeForce®, AMD Radeon™, and Vega, etc.)
-* Stable PC
-* Up-to-date PC parts
-* ***Not needed but reccomended:***
-* SSD or hybrid storage.
-* PC age 5-0 years.
 # 🧾 Reccomendations For CSCord Usage
 * Windows 10 Or Higher
 * Visual Studio 2019
