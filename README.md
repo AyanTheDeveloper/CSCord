@@ -42,3 +42,4 @@ To get code help, please join [our discord server](https://discord.gg/yjfSrccC4c
 * Discord (Latest Versions)
 # 📖 About 
 I originally made this webhook for one of my apps, but I realized it would be much more useful for other developers.
+[![CSCord](https://d1lss44hh2trtw.cloudfront.net/assets/article/2021/12/13/discord-wumpus-space_feature.png)](https://github.com/AyanTheDeveloper/CSCord)
