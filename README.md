@@ -1,11 +1,12 @@
 [![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true)](https://github.com/AyanTheDeveloper/CSCord)
-**CSCord will be recontinued after 31/11/22.**
+**CSCord has been recontinued.**
 # 🎧 24/7 Support
 Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/yjfSrccC4c).
 # 📥 Installation
-1. Go to our download page [here](https://github.com/AyanTheDeveloper/CSCord/releases/tag/CSCord-V1).
-2. Add the DLL reference for CSCord. [Don't know how?](https://github.com/AyanTheDeveloper/CSCord/wiki/Adding-CSCord.dll-reference).
-3. Your almost setup to use CSCord!
+1. Download Visual Studio.
+2. Go to our download page [here](https://github.com/AyanTheDeveloper/CSCord/releases/tag/CSCord-V1).
+3. Add the DLL reference for CSCord. [Don't know how?](https://github.com/AyanTheDeveloper/CSCord/wiki/Adding-CSCord.dll-reference).
+4. Your almost setup to use CSCord!
 # 📑 Starting CSCord
 ### To start CSCord:
 `CSCord.webhooks cscord = new CSCord.webhooks();` is necessary to use CSCord.
