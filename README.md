@@ -34,7 +34,8 @@ To get code help, please join [our discord server](https://discord.gg/yjfSrccC4c
 * Embeds are exclusive to [Pre-release V0.2](https://github.com/AyanTheDeveloper/CSCord/releases/edit/CSCord-V2), as we are not sure it is stable to all devices (YET!).
 * Templates will be exclusive to the up-coming **Pre-release V0.3** for the same reason.
 ## Using the correct versions:
-The *Latest* version that is highlighted in *green* are versions **that are verified to work as intended.** The *Pre-release* are **that are not verified to work as intended.**
+* The *Latest* version that is highlighted in *green* are versions **that are verified to work as intended.** 
+* The *Pre-release* are **that are not verified to work as intended.**
 # 🧾 Reccomendations For CSCord Usage
 * Windows 10 Or Higher
 * Visual Studio 2019
