@@ -31,7 +31,7 @@ To get code help, please join [our discord server](https://discord.gg/yjfSrccC4c
 **Dont know the required fields? They are mentioned with examples on** [our wiki](https://github.com/AyanTheDeveloper/CSCord/wiki).
 # 📗 Using versions
 ## Features that are exclusive to specific versions:
-* Embeds are exclusive to [Pre-release V0.2](https://github.com/AyanTheDeveloper/CSCord/releases/edit/CSCord-V2)*and higher*, as we are not sure it is stable to all devices (YET!).
+* Embeds are exclusive to [Release V0.2](https://github.com/AyanTheDeveloper/CSCord/releases/edit/CSCord-V2) *and higher*, as we are not sure it is stable to all devices (YET!).
 * Templates will be exclusive to the up-coming **Pre-release V0.3** for the same reason.
 ## Using the correct versions:
 * The *Latest* version that is highlighted in *green* are versions **that are verified to work as intended.** 
