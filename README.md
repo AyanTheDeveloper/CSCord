@@ -1,5 +1,5 @@
 [![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true)](https://github.com/AyanTheDeveloper/CSCord)
-**Support for CSCord v1, v2, has ended, please download v3 or v4. Read why** [here](https://github.com/AyanTheDeveloper/CSCord/wiki/Discontinuation-of-V1-and-V2.)
+**Support for CSCord v1, v2, has ended, please download v3 or v4. Read why** [here](https://github.com/AyanTheDeveloper/CSCord/wiki/Discontinuation-of-V1-and-V2.).
 # 🎧 24/7 Support
 Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/yjfSrccC4c).
 # 📥 Installation
