@@ -283,7 +283,40 @@ namespace CSCord
             }
             var response = (HttpWebResponse)wr.GetResponse();
         }
+        public void informationEmbed(string webhookUrl, string information)
+        {
+            WebRequest wr = (HttpWebRequest)WebRequest.Create(webhookUrl);
+            wr.ContentType = "application/json";
+            wr.Method = "POST";
+
+            using (var sw = new StreamWriter(wr.GetRequestStream()))
+            {
+                string json = JsonConvert.SerializeObject(new
+                {
+                    username = "New Information!",
+                    embeds = new[]
+                    {
+                        new
+                        {
+                            description = information,
+                            title = "New Information!",
+                            color = "008000",
+
+                            footer = new {
+                                icon_url = "https://www.pngmart.com/files/22/Notification-Bell-PNG.png",
+                                text = "Thats all!" + " | Made with CSCord"
+                            }
+                        }
+                    }
+                });
+
+                sw.Write(json);
+            }
+            var response = (HttpWebResponse)wr.GetResponse();
+        }
+        
     }
+    
 }
 
 //thats it.
