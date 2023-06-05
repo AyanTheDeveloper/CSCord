@@ -10,6 +10,8 @@ Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/y
 # 📑 Starting CSCord
 ### To start CSCord:
 `CSCord.webhooks cscord = new CSCord.webhooks();` is necessary to use CSCord.
+If you are trying to use templates, they are started very differently:
+`CSCord.templates cscordTemplates = new CSCord.templates();`
 ### To test CSCord:
 Copy & Paste this exact  line while including the one mentioned above. 
 `cscord.testWebhook("webhook url here");`
