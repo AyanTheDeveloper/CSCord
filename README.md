@@ -1,7 +1,7 @@
 [![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true)](https://github.com/AyanTheDeveloper/CSCord)
 **v5 coming soon!**
 # 🎧 24/7 Support
-Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/yjfSrccC4c). 
+Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/m86NNb2Rhy). 
 # 📥 Installation
 1. Download Visual Studio.
 2. Go to our download page [here](https://github.com/AyanTheDeveloper/CSCord/releases/tag/CSCord-V1).
