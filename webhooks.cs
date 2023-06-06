@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Security.Cryptography.X509Certificates;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using DiscordMessenger;
 
 namespace CSCord
 {
@@ -57,10 +58,18 @@ namespace CSCord
         {
             string webhook = webhookUrl;
 
-            var wbc = new WebClient();
-            var data = new NameValueCollection();
-            data["content"] = "Webhook is working!";
-            wbc.UploadValues(webhook, data);
+            new DiscordMessage()
+                .SetUsername("123")
+                .SetAvatar("https://tr.rbxcdn.com/2c3f9715160594787e5a0b9d7d0a1b9f/150/150/AvatarHeadshot/Png")
+                .AddEmbed()
+                  .SetTimestamp(DateTime.Now)
+                  .SetTitle("CSCord")
+                  .SetDescription("Your webhook is working completely fine!")
+                  .SetFooter("Thanks For Using CSCord!")
+                  .SetColor(1242520)
+                  .Build()
+                  .SendMessage(webhookUrl);
+
 
         }
         public void wait(int time)
@@ -86,72 +95,34 @@ namespace CSCord
             data["content"] = timeString;
             wbc.UploadValues(webhook, data);
         }
-        public void embed(string webhookUrl, string username, string title, string description, string footer, string color)
+        public void embed(string webhookUrl, string avatarPhotoUrl, string username, string title, string description, string footer, int color)
         {
-            WebRequest wr = (HttpWebRequest)WebRequest.Create(webhookUrl);
-            wr.ContentType = "application/json";
-            wr.Method = "POST";
-
-            using (var sw = new StreamWriter(wr.GetRequestStream()))
-            {
-                string json = JsonConvert.SerializeObject(new
-                {
-                    username = username,
-                    embeds = new[]
-                    {
-                        new
-                        {
-                            description = description,
-                            title = title,
-                            color = color,
-
-                            footer = new {
-                                icon_url = "",
-                                text = footer + " | Made with CSCord"
-                            }
-                        }
-                    }
-                });
-
-                sw.Write(json);
+            try
+            { 
+                new DiscordMessage()
+                      .SetUsername(username)
+                      .SetAvatar(avatarPhotoUrl)
+                      .AddEmbed()
+                        .SetTimestamp(DateTime.Now)
+                        .SetTitle(title)
+                        .SetDescription(description)
+                        .SetFooter(footer)
+                        .SetColor(color)
+                        .Build()
+                        .SendMessage(webhookUrl + "| Made with https://bit.ly/official-cscord");
             }
-            var response = (HttpWebResponse)wr.GetResponse();
+            catch
+            {
+
+            }
         }
-        void embedSpam(string webhookUrl, string username, string title, string description, string footer, string color)
+        void embedSpam(string webhookUrl, string avatarPhotoUrl,string username, string title, string description, string footer, int color)
         {
             try
             {
                 while (true)
                 {
-                    WebRequest wr = (HttpWebRequest)WebRequest.Create(webhookUrl);
-                    wr.ContentType = "application/json";
-                    wr.Method = "POST";
-
-                    using (var sw = new StreamWriter(wr.GetRequestStream()))
-                    {
-                        string json = JsonConvert.SerializeObject(new
-                        {
-                            username = username,
-                            embeds = new[]
-                            {
-                        new
-                        {
-                            description = description,
-                            title = title,
-                            color = color,
-
-                            footer = new {
-                                icon_url = "",
-                                text = footer + " | Made with CSCord"
-                            }
-                        }
-                    }
-                        });
-
-                        sw.Write(json);
-                    }
-                    var response = (HttpWebResponse)wr.GetResponse();
-                    System.Threading.Thread.Sleep(1000);
+                    embed(webhookUrl, avatarPhotoUrl, username, title, description, footer, color);
 
                 }
             }
