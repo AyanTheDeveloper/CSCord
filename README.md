@@ -1,8 +1,9 @@
 [![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true)](https://github.com/AyanTheDeveloper/CSCord)
 
 **IMPORTANT: Anyone not on Fix 2 V.0.5 will face issues with embeds, please download Fix 2 V.0.5 to fix.**
+BTW: If color does not work in embeds, try this color code: 1242520 (green)
 # 🎧 24/7 Support
-Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/m86NNb2Rhy). 
+Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/m86NNb2Rhy).  
 # 📥 Installation
 1. Download Visual Studio.
 2. Go to our download page [here](https://github.com/AyanTheDeveloper/CSCord/releases/tag/CSCord-V1).
