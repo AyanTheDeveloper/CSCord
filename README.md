@@ -1,7 +1,7 @@
 [![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true)](https://github.com/AyanTheDeveloper/CSCord)
 **v5 coming soon!**
 # 🎧 24/7 Support
-Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/yjfSrccC4c). 
+Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/m86NNb2Rhy). 
 # 📥 Installation
 1. Download Visual Studio.
 2. Go to our download page [here](https://github.com/AyanTheDeveloper/CSCord/releases/tag/CSCord-V1).
@@ -10,6 +10,8 @@ Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/y
 # 📑 Starting CSCord
 ### To start CSCord:
 `CSCord.webhooks cscord = new CSCord.webhooks();` is necessary to use CSCord.
+If you are trying to use templates, they are started very differently:
+`CSCord.templates cscordTemplates = new CSCord.templates();`
 ### To test CSCord:
 Copy & Paste this exact  line while including the one mentioned above. 
 `cscord.testWebhook("webhook url here");`
