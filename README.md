@@ -1,6 +1,6 @@
 [![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true)](https://github.com/AyanTheDeveloper/CSCord)
 
-**IMPORTANT: Anyone not on Fixed V.0.5 will face issues with embeds, please download Fixed V.0.5 to fix.**
+**IMPORTANT: Anyone not on Fix 2 V.0.5 will face issues with embeds, please download Fix 2 V.0.5 to fix.**
 # 🎧 24/7 Support
 Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/m86NNb2Rhy). 
 # 📥 Installation
