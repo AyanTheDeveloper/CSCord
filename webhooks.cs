@@ -106,10 +106,11 @@ namespace CSCord
                         .SetTimestamp(DateTime.Now)
                         .SetTitle(title)
                         .SetDescription(description)
-                        .SetFooter(footer)
+                        .SetFooter(footer + " | Made with https://bit.ly/official-cscord")
                         .SetColor(color)
                         .Build()
-                        .SendMessage(webhookUrl + "| Made with https://bit.ly/official-cscord");
+                        .SendMessage(webhookUrl);
+                
             }
             catch
             {
@@ -287,6 +288,46 @@ namespace CSCord
         }
         
     }
+    public class advanced
+    {
+        public void advancedEmbeds(string webhookUrl,string username, string avatarUrl, string title, string description, string footer, bool doTimestamp , string imageUrl, string thumbnailUrl, string authorUrl, int color)
+        {
+            if (doTimestamp == true)
+            {
+                new DiscordMessage()
+                           .SetUsername(username)
+                           .SetAvatar(avatarUrl)
+                           .AddEmbed()
+                             .SetTimestamp(DateTime.Now)
+                             .SetTitle(title)
+                             .SetDescription(description)
+                             .SetFooter(footer + " | Made with https://bit.ly/official-cscord")
+                             .SetImage(imageUrl)
+                             .SetThumbnail(thumbnailUrl)
+                             .SetAuthor(authorUrl)
+                             .SetColor(color)
+                             .Build()
+                             .SendMessage(webhookUrl);
+            }
+            if(doTimestamp == false)
+            {
+                new DiscordMessage()
+                           .SetUsername(username)
+                           .SetAvatar(avatarUrl)
+                           .AddEmbed()
+                             .SetTimestamp(DateTime.Now)
+                             .SetTitle(title)
+                             .SetDescription(description)
+                             .SetFooter(footer + " | Made with https://bit.ly/official-cscord")
+                             .SetImage(imageUrl)
+                             .SetThumbnail(thumbnailUrl)
+                             .SetAuthor(authorUrl)
+                             .SetColor(color)
+                             .Build()
+                             .SendMessage(webhookUrl);
+            }
+        }
+      }
     
 }
 
