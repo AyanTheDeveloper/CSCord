@@ -327,6 +327,11 @@ namespace CSCord
                              .SendMessage(webhookUrl);
             }
         }
+        public void advancedMessages(string webhookUrl, string webhookMessage)
+        {
+            CSCord.webhooks cscord = new CSCord.webhooks();
+            cscord.message(webhookUrl, webhookMessage + " | Sent at " + DateTime.Now);
+        }
       }
     
 }
