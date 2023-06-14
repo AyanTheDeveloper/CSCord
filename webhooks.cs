@@ -9,7 +9,7 @@ using System.Net.Http;
 using System.Security.Cryptography.X509Certificates;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
-using DiscordMessenger;
+using CSCordEmbedsHelper;
 
 namespace CSCord
 {
@@ -98,7 +98,7 @@ namespace CSCord
         public void embed(string webhookUrl, string avatarPhotoUrl, string username, string title, string description, string footer, int color)
         {
             try
-            { 
+            {
                 new DiscordMessage()
                       .SetUsername(username)
                       .SetAvatar(avatarPhotoUrl)
@@ -110,14 +110,14 @@ namespace CSCord
                         .SetColor(color)
                         .Build()
                         .SendMessage(webhookUrl);
-                
+
             }
             catch
             {
 
             }
         }
-        void embedSpam(string webhookUrl, string avatarPhotoUrl,string username, string title, string description, string footer, int color)
+        void embedSpam(string webhookUrl, string avatarPhotoUrl, string username, string title, string description, string footer, int color)
         {
             try
             {
@@ -178,8 +178,8 @@ namespace CSCord
         }
         //public void sendFile(string webhookUrl)
         //{
-            //
-            //
+        //
+        //
         //}
     }
     public class templates
@@ -286,11 +286,11 @@ namespace CSCord
             }
             var response = (HttpWebResponse)wr.GetResponse();
         }
-        
+
     }
     public class advanced
     {
-        public void advancedEmbeds(string webhookUrl,string username, string avatarUrl, string title, string description, string footer, bool doTimestamp , string imageUrl, string thumbnailUrl, string authorUrl, int color)
+        public void advancedEmbeds(string webhookUrl, string username, string avatarUrl, string title, string description, string footer, bool doTimestamp, string imageUrl, string thumbnailUrl, string authorUrl, int color)
         {
             if (doTimestamp == true)
             {
@@ -309,7 +309,7 @@ namespace CSCord
                              .Build()
                              .SendMessage(webhookUrl);
             }
-            if(doTimestamp == false)
+            if (doTimestamp == false)
             {
                 new DiscordMessage()
                            .SetUsername(username)
@@ -332,8 +332,8 @@ namespace CSCord
             CSCord.webhooks cscord = new CSCord.webhooks();
             cscord.message(webhookUrl, webhookMessage + " | Sent at " + DateTime.Now);
         }
-      }
-    
+    }
+
 }
 
 //thats it.
