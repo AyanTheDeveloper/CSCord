@@ -1,6 +1,6 @@
 [![CSCord](https://github.com/AyanTheDeveloper/CSCord/blob/master/cscordico.png?raw=true)](https://github.com/AyanTheDeveloper/CSCord)
 
-**IMPORTANT: Anyone not on Fix 2 V.0.5 will face issues with embeds, please download Fix 2 V.0.5 to fix.** BTW: [List for color codes for embeds](https://gist.github.com/thomasbnt/b6f455e2c7d743b796917fa3c205f812)
+**IMPORTANT: Anyone on release V.0.9 and earlier will face issues with CSCord!** BTW: [List for color codes for embeds](https://gist.github.com/thomasbnt/b6f455e2c7d743b796917fa3c205f812)
 # 🎧 24/7 Support
 Questions, Quries or Suggestions? Join [our discord server](https://discord.gg/m86NNb2Rhy).  
 # 📥 Installation
